@@ -11,6 +11,7 @@ Cylon
     setInterval(function() {
       state = 1 - state;
       my.relay.digitalWrite(state);
+      console.log("Relay State: "+state);
     }, 1000);
   });
 
