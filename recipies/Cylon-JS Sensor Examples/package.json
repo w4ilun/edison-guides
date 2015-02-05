@@ -2,7 +2,7 @@
   "name": "edison-cylon",
   "description": "A simple Edison blink sketch.",
   "version": "0.0.1",
-  "main": "sound.js",
+  "main": "buzzer.js",
   "engines": {
     "node": ">=0.10.0"
   },
