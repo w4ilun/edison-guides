@@ -2,7 +2,7 @@
   "name": "edison-cylon",
   "description": "A simple Edison blink sketch.",
   "version": "0.0.1",
-  "main": "temperature.js",
+  "main": "button.js",
   "engines": {
     "node": ">=0.10.0"
   },

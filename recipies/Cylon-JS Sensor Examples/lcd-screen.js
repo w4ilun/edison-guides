@@ -1,4 +1,5 @@
 // How to write to the Seeed LCD Screen
+// NOTE: You *MUST* plug the LCD into an I2C slot or this will not work!
 var Cylon = require('cylon');
 
 function writeToScreen(screen, message) {
