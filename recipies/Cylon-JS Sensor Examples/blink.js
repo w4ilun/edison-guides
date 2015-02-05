@@ -1,4 +1,5 @@
 // Blink an LED
+// Pin 13 is the default pin on the large Arduino breakout board, change as needed.
 var Cylon = require('cylon');
 
 Cylon
