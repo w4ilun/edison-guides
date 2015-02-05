@@ -1,4 +1,5 @@
 // Activate the touch button
+// This code will work for BOTH the capactive button and the "standard" button with a black tip
 var Cylon = require('cylon');
 
 Cylon

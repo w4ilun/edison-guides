@@ -1,11 +1,11 @@
-// Plug the light sensor into the Analog port A0 on the provided
+// Plug the sound sensor into the Analog port A0 on the provided
 // Seeed Sensor Kit Arduino Shield
 // MUST be in the analog pin slots!
 
 var Cylon = require('cylon');
 
 Cylon
-  .robot({ name: 'LightSensor'})
+  .robot({ name: 'Temperature'})
   .connection('edison', { adaptor: 'intel-iot' })
   .device('sensor', { driver: 'analogSensor', pin: 0, connection: 'edison' })
   .on('ready', function(my) {
@@ -14,7 +14,7 @@ Cylon
 
     my.sensor.on('analogRead', function(data) {
       sensorVal = data;
-      console.log('Light Sensor Value:' + sensorVal);
+      console.log('Sound Sensor Value:' + sensorVal);
     });
 
     setInterval(function() {
