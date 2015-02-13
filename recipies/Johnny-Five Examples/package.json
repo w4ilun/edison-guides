@@ -1,0 +1,13 @@
+{
+  "name": "edison-johnny-five",
+  "description": "A simple Edison blink sketch.",
+  "version": "0.0.1",
+  "main": "blink.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+      "johnny-five": "latest",
+      "edison-io": "0.8.1"
+  }
+}
