@@ -7,7 +7,7 @@ Cylon
   .connection('edison', { adaptor: 'intel-iot' })
   .device('touch', { driver: 'button', pin: 4, connection: 'edison' })
   .on('ready', function(my) {
-    my.touch.on('press', function() {
+    my.touch.on('push', function() {
       console.log('detected press');
     });
 
