@@ -25,7 +25,3 @@ board.on("ready", function() {
     console.log("--------------------------------------");
   });
 });
-	
-	
-Ricardo DeMatos's profile photo
-	Ricardo DeMatos
