@@ -7,13 +7,13 @@ var board = new five.Board({
 
 var awsRegion = "us-east-1";
 var deviceId = "team38";
-var streamName = 'iot-DeviceStream-11A8Y2K4HA3X2'; // Kinesis stream that we'll use in this example
+var streamName = 'iot-DeviceStream-XXXXXXXXXXXX'; // Kinesis stream that we'll use in this example
 var partitionKey = "xyz";
-var tableName = "iot-DeviceDataTable-QNC566GK8S5V";
+var tableName = "iot-DeviceDataTable-XXXXXXXXXXXX";
 var cognitoParams = {
-    AccountId: "673485280914",
-    RoleArn: "arn:aws:iam::673485280914:role/Cognito_umassUnauth_Role",
-    IdentityPoolId: "us-east-1:94b083d6-ad03-4d4b-858b-7d97e3e22a8b"
+    AccountId: "XXXXXXXXXXXX",
+    RoleArn: "arn:aws:iam::XXXXXXXXXXXX:role/Cognito_umassUnauth_Role",
+    IdentityPoolId: "us-east-1:XXXXXXXXXXXX"
 };
 
 AWS.config.region = awsRegion;
